@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A87871A81924F0EE00BA8985 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87871A71924F0EE00BA8985 /* Foundation.framework */; };
+		A87871AA1924F0EE00BA8985 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87871A91924F0EE00BA8985 /* CoreGraphics.framework */; };
+		A87871AC1924F0EE00BA8985 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87871AB1924F0EE00BA8985 /* UIKit.framework */; };
+		A87871B21924F0EE00BA8985 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A87871B01924F0EE00BA8985 /* InfoPlist.strings */; };
+		A87871B41924F0EE00BA8985 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A87871B31924F0EE00BA8985 /* main.m */; };
+		A87871B81924F0EE00BA8985 /* HYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A87871B71924F0EE00BA8985 /* HYZAppDelegate.m */; };
+		A87871BA1924F0EE00BA8985 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87871B91924F0EE00BA8985 /* Images.xcassets */; };
+		A87871C11924F0EE00BA8985 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87871C01924F0EE00BA8985 /* XCTest.framework */; };
+		A87871C21924F0EE00BA8985 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87871A71924F0EE00BA8985 /* Foundation.framework */; };
+		A87871C31924F0EE00BA8985 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87871AB1924F0EE00BA8985 /* UIKit.framework */; };
+		A87871CB1924F0EE00BA8985 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A87871C91924F0EE00BA8985 /* InfoPlist.strings */; };
+		A87871CD1924F0EE00BA8985 /* FindKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A87871CC1924F0EE00BA8985 /* FindKeyTests.m */; };
+		A87871D81924F10900BA8985 /* HYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87871D71924F10900BA8985 /* HYZViewController.m */; };
+		A87871DB1924FFB600BA8985 /* HYZOpinion.m in Sources */ = {isa = PBXBuildFile; fileRef = A87871DA1924FFB600BA8985 /* HYZOpinion.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A87871C41924F0EE00BA8985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A878719C1924F0EE00BA8985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A87871A31924F0EE00BA8985;
+			remoteInfo = FindKey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A87871A41924F0EE00BA8985 /* FindKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87871A71924F0EE00BA8985 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A87871A91924F0EE00BA8985 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A87871AB1924F0EE00BA8985 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A87871AF1924F0EE00BA8985 /* FindKey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FindKey-Info.plist"; sourceTree = "<group>"; };
+		A87871B11924F0EE00BA8985 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A87871B31924F0EE00BA8985 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A87871B51924F0EE00BA8985 /* FindKey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FindKey-Prefix.pch"; sourceTree = "<group>"; };
+		A87871B61924F0EE00BA8985 /* HYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYZAppDelegate.h; sourceTree = "<group>"; };
+		A87871B71924F0EE00BA8985 /* HYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYZAppDelegate.m; sourceTree = "<group>"; };
+		A87871B91924F0EE00BA8985 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A87871BF1924F0EE00BA8985 /* FindKeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindKeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87871C01924F0EE00BA8985 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A87871C81924F0EE00BA8985 /* FindKeyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FindKeyTests-Info.plist"; sourceTree = "<group>"; };
+		A87871CA1924F0EE00BA8985 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A87871CC1924F0EE00BA8985 /* FindKeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindKeyTests.m; sourceTree = "<group>"; };
+		A87871D61924F10900BA8985 /* HYZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYZViewController.h; sourceTree = "<group>"; };
+		A87871D71924F10900BA8985 /* HYZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYZViewController.m; sourceTree = "<group>"; };
+		A87871D91924FFB600BA8985 /* HYZOpinion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYZOpinion.h; sourceTree = "<group>"; };
+		A87871DA1924FFB600BA8985 /* HYZOpinion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYZOpinion.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A87871A11924F0EE00BA8985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87871AA1924F0EE00BA8985 /* CoreGraphics.framework in Frameworks */,
+				A87871AC1924F0EE00BA8985 /* UIKit.framework in Frameworks */,
+				A87871A81924F0EE00BA8985 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87871BC1924F0EE00BA8985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87871C11924F0EE00BA8985 /* XCTest.framework in Frameworks */,
+				A87871C31924F0EE00BA8985 /* UIKit.framework in Frameworks */,
+				A87871C21924F0EE00BA8985 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A878719B1924F0EE00BA8985 = {
+			isa = PBXGroup;
+			children = (
+				A87871AD1924F0EE00BA8985 /* FindKey */,
+				A87871C61924F0EE00BA8985 /* FindKeyTests */,
+				A87871A61924F0EE00BA8985 /* Frameworks */,
+				A87871A51924F0EE00BA8985 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A87871A51924F0EE00BA8985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A87871A41924F0EE00BA8985 /* FindKey.app */,
+				A87871BF1924F0EE00BA8985 /* FindKeyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A87871A61924F0EE00BA8985 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A87871A71924F0EE00BA8985 /* Foundation.framework */,
+				A87871A91924F0EE00BA8985 /* CoreGraphics.framework */,
+				A87871AB1924F0EE00BA8985 /* UIKit.framework */,
+				A87871C01924F0EE00BA8985 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A87871AD1924F0EE00BA8985 /* FindKey */ = {
+			isa = PBXGroup;
+			children = (
+				A87871B61924F0EE00BA8985 /* HYZAppDelegate.h */,
+				A87871B71924F0EE00BA8985 /* HYZAppDelegate.m */,
+				A87871D61924F10900BA8985 /* HYZViewController.h */,
+				A87871D71924F10900BA8985 /* HYZViewController.m */,
+				A87871D91924FFB600BA8985 /* HYZOpinion.h */,
+				A87871DA1924FFB600BA8985 /* HYZOpinion.m */,
+				A87871B91924F0EE00BA8985 /* Images.xcassets */,
+				A87871AE1924F0EE00BA8985 /* Supporting Files */,
+			);
+			path = FindKey;
+			sourceTree = "<group>";
+		};
+		A87871AE1924F0EE00BA8985 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A87871AF1924F0EE00BA8985 /* FindKey-Info.plist */,
+				A87871B01924F0EE00BA8985 /* InfoPlist.strings */,
+				A87871B31924F0EE00BA8985 /* main.m */,
+				A87871B51924F0EE00BA8985 /* FindKey-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A87871C61924F0EE00BA8985 /* FindKeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A87871CC1924F0EE00BA8985 /* FindKeyTests.m */,
+				A87871C71924F0EE00BA8985 /* Supporting Files */,
+			);
+			path = FindKeyTests;
+			sourceTree = "<group>";
+		};
+		A87871C71924F0EE00BA8985 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A87871C81924F0EE00BA8985 /* FindKeyTests-Info.plist */,
+				A87871C91924F0EE00BA8985 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A87871A31924F0EE00BA8985 /* FindKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87871D01924F0EE00BA8985 /* Build configuration list for PBXNativeTarget "FindKey" */;
+			buildPhases = (
+				A87871A01924F0EE00BA8985 /* Sources */,
+				A87871A11924F0EE00BA8985 /* Frameworks */,
+				A87871A21924F0EE00BA8985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindKey;
+			productName = FindKey;
+			productReference = A87871A41924F0EE00BA8985 /* FindKey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A87871BE1924F0EE00BA8985 /* FindKeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87871D31924F0EE00BA8985 /* Build configuration list for PBXNativeTarget "FindKeyTests" */;
+			buildPhases = (
+				A87871BB1924F0EE00BA8985 /* Sources */,
+				A87871BC1924F0EE00BA8985 /* Frameworks */,
+				A87871BD1924F0EE00BA8985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A87871C51924F0EE00BA8985 /* PBXTargetDependency */,
+			);
+			name = FindKeyTests;
+			productName = FindKeyTests;
+			productReference = A87871BF1924F0EE00BA8985 /* FindKeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A878719C1924F0EE00BA8985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HYZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "韩亚周";
+				TargetAttributes = {
+					A87871BE1924F0EE00BA8985 = {
+						TestTargetID = A87871A31924F0EE00BA8985;
+					};
+				};
+			};
+			buildConfigurationList = A878719F1924F0EE00BA8985 /* Build configuration list for PBXProject "FindKey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A878719B1924F0EE00BA8985;
+			productRefGroup = A87871A51924F0EE00BA8985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A87871A31924F0EE00BA8985 /* FindKey */,
+				A87871BE1924F0EE00BA8985 /* FindKeyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A87871A21924F0EE00BA8985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87871B21924F0EE00BA8985 /* InfoPlist.strings in Resources */,
+				A87871BA1924F0EE00BA8985 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87871BD1924F0EE00BA8985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87871CB1924F0EE00BA8985 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A87871A01924F0EE00BA8985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87871D81924F10900BA8985 /* HYZViewController.m in Sources */,
+				A87871B81924F0EE00BA8985 /* HYZAppDelegate.m in Sources */,
+				A87871DB1924FFB600BA8985 /* HYZOpinion.m in Sources */,
+				A87871B41924F0EE00BA8985 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87871BB1924F0EE00BA8985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87871CD1924F0EE00BA8985 /* FindKeyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A87871C51924F0EE00BA8985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A87871A31924F0EE00BA8985 /* FindKey */;
+			targetProxy = A87871C41924F0EE00BA8985 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A87871B01924F0EE00BA8985 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A87871B11924F0EE00BA8985 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A87871C91924F0EE00BA8985 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A87871CA1924F0EE00BA8985 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A87871CE1924F0EE00BA8985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A87871CF1924F0EE00BA8985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A87871D11924F0EE00BA8985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FindKey/FindKey-Prefix.pch";
+				INFOPLIST_FILE = "FindKey/FindKey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A87871D21924F0EE00BA8985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FindKey/FindKey-Prefix.pch";
+				INFOPLIST_FILE = "FindKey/FindKey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A87871D41924F0EE00BA8985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FindKey.app/FindKey";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FindKey/FindKey-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FindKeyTests/FindKeyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A87871D51924F0EE00BA8985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FindKey.app/FindKey";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FindKey/FindKey-Prefix.pch";
+				INFOPLIST_FILE = "FindKeyTests/FindKeyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A878719F1924F0EE00BA8985 /* Build configuration list for PBXProject "FindKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87871CE1924F0EE00BA8985 /* Debug */,
+				A87871CF1924F0EE00BA8985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87871D01924F0EE00BA8985 /* Build configuration list for PBXNativeTarget "FindKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87871D11924F0EE00BA8985 /* Debug */,
+				A87871D21924F0EE00BA8985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A87871D31924F0EE00BA8985 /* Build configuration list for PBXNativeTarget "FindKeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87871D41924F0EE00BA8985 /* Debug */,
+				A87871D51924F0EE00BA8985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A878719C1924F0EE00BA8985 /* Project object */;
+}
