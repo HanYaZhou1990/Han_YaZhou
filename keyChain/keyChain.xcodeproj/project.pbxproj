@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A87D0F1C193225FD00572179 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87D0F1B193225FD00572179 /* Foundation.framework */; };
+		A87D0F1E193225FD00572179 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87D0F1D193225FD00572179 /* CoreGraphics.framework */; };
+		A87D0F20193225FD00572179 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87D0F1F193225FD00572179 /* UIKit.framework */; };
+		A87D0F22193225FD00572179 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87D0F21193225FD00572179 /* CoreData.framework */; };
+		A87D0F28193225FD00572179 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A87D0F26193225FD00572179 /* InfoPlist.strings */; };
+		A87D0F2A193225FD00572179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A87D0F29193225FD00572179 /* main.m */; };
+		A87D0F2E193225FD00572179 /* HYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A87D0F2D193225FD00572179 /* HYZAppDelegate.m */; };
+		A87D0F31193225FD00572179 /* keyChain.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A87D0F2F193225FD00572179 /* keyChain.xcdatamodeld */; };
+		A87D0F33193225FD00572179 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87D0F32193225FD00572179 /* Images.xcassets */; };
+		A87D0F3A193225FD00572179 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87D0F39193225FD00572179 /* XCTest.framework */; };
+		A87D0F3B193225FD00572179 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87D0F1B193225FD00572179 /* Foundation.framework */; };
+		A87D0F3C193225FD00572179 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87D0F1F193225FD00572179 /* UIKit.framework */; };
+		A87D0F3D193225FD00572179 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87D0F21193225FD00572179 /* CoreData.framework */; };
+		A87D0F45193225FD00572179 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A87D0F43193225FD00572179 /* InfoPlist.strings */; };
+		A87D0F47193225FE00572179 /* keyChainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A87D0F46193225FE00572179 /* keyChainTests.m */; };
+		A87D0F521932267600572179 /* HYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87D0F511932267600572179 /* HYZViewController.m */; };
+		A87D0F55193229D200572179 /* HYZKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = A87D0F54193229D200572179 /* HYZKeyChain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A87D0F3E193225FD00572179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A87D0F10193225FD00572179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A87D0F17193225FD00572179;
+			remoteInfo = keyChain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A87D0F18193225FD00572179 /* keyChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keyChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87D0F1B193225FD00572179 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A87D0F1D193225FD00572179 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A87D0F1F193225FD00572179 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A87D0F21193225FD00572179 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A87D0F25193225FD00572179 /* keyChain-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "keyChain-Info.plist"; sourceTree = "<group>"; };
+		A87D0F27193225FD00572179 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A87D0F29193225FD00572179 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A87D0F2B193225FD00572179 /* keyChain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "keyChain-Prefix.pch"; sourceTree = "<group>"; };
+		A87D0F2C193225FD00572179 /* HYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYZAppDelegate.h; sourceTree = "<group>"; };
+		A87D0F2D193225FD00572179 /* HYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYZAppDelegate.m; sourceTree = "<group>"; };
+		A87D0F30193225FD00572179 /* keyChain.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = keyChain.xcdatamodel; sourceTree = "<group>"; };
+		A87D0F32193225FD00572179 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A87D0F38193225FD00572179 /* keyChainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keyChainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87D0F39193225FD00572179 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A87D0F42193225FD00572179 /* keyChainTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "keyChainTests-Info.plist"; sourceTree = "<group>"; };
+		A87D0F44193225FD00572179 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A87D0F46193225FE00572179 /* keyChainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = keyChainTests.m; sourceTree = "<group>"; };
+		A87D0F501932267600572179 /* HYZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYZViewController.h; sourceTree = "<group>"; };
+		A87D0F511932267600572179 /* HYZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYZViewController.m; sourceTree = "<group>"; };
+		A87D0F53193229D200572179 /* HYZKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYZKeyChain.h; sourceTree = "<group>"; };
+		A87D0F54193229D200572179 /* HYZKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYZKeyChain.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A87D0F15193225FD00572179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87D0F1E193225FD00572179 /* CoreGraphics.framework in Frameworks */,
+				A87D0F22193225FD00572179 /* CoreData.framework in Frameworks */,
+				A87D0F20193225FD00572179 /* UIKit.framework in Frameworks */,
+				A87D0F1C193225FD00572179 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87D0F35193225FD00572179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87D0F3A193225FD00572179 /* XCTest.framework in Frameworks */,
+				A87D0F3D193225FD00572179 /* CoreData.framework in Frameworks */,
+				A87D0F3C193225FD00572179 /* UIKit.framework in Frameworks */,
+				A87D0F3B193225FD00572179 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A87D0F0F193225FD00572179 = {
+			isa = PBXGroup;
+			children = (
+				A87D0F23193225FD00572179 /* keyChain */,
+				A87D0F40193225FD00572179 /* keyChainTests */,
+				A87D0F1A193225FD00572179 /* Frameworks */,
+				A87D0F19193225FD00572179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A87D0F19193225FD00572179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A87D0F18193225FD00572179 /* keyChain.app */,
+				A87D0F38193225FD00572179 /* keyChainTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A87D0F1A193225FD00572179 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A87D0F1B193225FD00572179 /* Foundation.framework */,
+				A87D0F1D193225FD00572179 /* CoreGraphics.framework */,
+				A87D0F1F193225FD00572179 /* UIKit.framework */,
+				A87D0F21193225FD00572179 /* CoreData.framework */,
+				A87D0F39193225FD00572179 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A87D0F23193225FD00572179 /* keyChain */ = {
+			isa = PBXGroup;
+			children = (
+				A87D0F2C193225FD00572179 /* HYZAppDelegate.h */,
+				A87D0F2D193225FD00572179 /* HYZAppDelegate.m */,
+				A87D0F501932267600572179 /* HYZViewController.h */,
+				A87D0F511932267600572179 /* HYZViewController.m */,
+				A87D0F53193229D200572179 /* HYZKeyChain.h */,
+				A87D0F54193229D200572179 /* HYZKeyChain.m */,
+				A87D0F32193225FD00572179 /* Images.xcassets */,
+				A87D0F2F193225FD00572179 /* keyChain.xcdatamodeld */,
+				A87D0F24193225FD00572179 /* Supporting Files */,
+			);
+			path = keyChain;
+			sourceTree = "<group>";
+		};
+		A87D0F24193225FD00572179 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A87D0F25193225FD00572179 /* keyChain-Info.plist */,
+				A87D0F26193225FD00572179 /* InfoPlist.strings */,
+				A87D0F29193225FD00572179 /* main.m */,
+				A87D0F2B193225FD00572179 /* keyChain-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A87D0F40193225FD00572179 /* keyChainTests */ = {
+			isa = PBXGroup;
+			children = (
+				A87D0F46193225FE00572179 /* keyChainTests.m */,
+				A87D0F41193225FD00572179 /* Supporting Files */,
+			);
+			path = keyChainTests;
+			sourceTree = "<group>";
+		};
+		A87D0F41193225FD00572179 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A87D0F42193225FD00572179 /* keyChainTests-Info.plist */,
+				A87D0F43193225FD00572179 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A87D0F17193225FD00572179 /* keyChain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87D0F4A193225FE00572179 /* Build configuration list for PBXNativeTarget "keyChain" */;
+			buildPhases = (
+				A87D0F14193225FD00572179 /* Sources */,
+				A87D0F15193225FD00572179 /* Frameworks */,
+				A87D0F16193225FD00572179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keyChain;
+			productName = keyChain;
+			productReference = A87D0F18193225FD00572179 /* keyChain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A87D0F37193225FD00572179 /* keyChainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87D0F4D193225FE00572179 /* Build configuration list for PBXNativeTarget "keyChainTests" */;
+			buildPhases = (
+				A87D0F34193225FD00572179 /* Sources */,
+				A87D0F35193225FD00572179 /* Frameworks */,
+				A87D0F36193225FD00572179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A87D0F3F193225FD00572179 /* PBXTargetDependency */,
+			);
+			name = keyChainTests;
+			productName = keyChainTests;
+			productReference = A87D0F38193225FD00572179 /* keyChainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A87D0F10193225FD00572179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HYZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "韩亚周";
+				TargetAttributes = {
+					A87D0F37193225FD00572179 = {
+						TestTargetID = A87D0F17193225FD00572179;
+					};
+				};
+			};
+			buildConfigurationList = A87D0F13193225FD00572179 /* Build configuration list for PBXProject "keyChain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A87D0F0F193225FD00572179;
+			productRefGroup = A87D0F19193225FD00572179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A87D0F17193225FD00572179 /* keyChain */,
+				A87D0F37193225FD00572179 /* keyChainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A87D0F16193225FD00572179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87D0F28193225FD00572179 /* InfoPlist.strings in Resources */,
+				A87D0F33193225FD00572179 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87D0F36193225FD00572179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87D0F45193225FD00572179 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A87D0F14193225FD00572179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87D0F521932267600572179 /* HYZViewController.m in Sources */,
+				A87D0F55193229D200572179 /* HYZKeyChain.m in Sources */,
+				A87D0F31193225FD00572179 /* keyChain.xcdatamodeld in Sources */,
+				A87D0F2E193225FD00572179 /* HYZAppDelegate.m in Sources */,
+				A87D0F2A193225FD00572179 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87D0F34193225FD00572179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87D0F47193225FE00572179 /* keyChainTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A87D0F3F193225FD00572179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A87D0F17193225FD00572179 /* keyChain */;
+			targetProxy = A87D0F3E193225FD00572179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A87D0F26193225FD00572179 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A87D0F27193225FD00572179 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A87D0F43193225FD00572179 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A87D0F44193225FD00572179 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A87D0F48193225FE00572179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A87D0F49193225FE00572179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A87D0F4B193225FE00572179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "keyChain/keyChain-Prefix.pch";
+				INFOPLIST_FILE = "keyChain/keyChain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A87D0F4C193225FE00572179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "keyChain/keyChain-Prefix.pch";
+				INFOPLIST_FILE = "keyChain/keyChain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A87D0F4E193225FE00572179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/keyChain.app/keyChain";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "keyChain/keyChain-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "keyChainTests/keyChainTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A87D0F4F193225FE00572179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/keyChain.app/keyChain";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "keyChain/keyChain-Prefix.pch";
+				INFOPLIST_FILE = "keyChainTests/keyChainTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A87D0F13193225FD00572179 /* Build configuration list for PBXProject "keyChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87D0F48193225FE00572179 /* Debug */,
+				A87D0F49193225FE00572179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87D0F4A193225FE00572179 /* Build configuration list for PBXNativeTarget "keyChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87D0F4B193225FE00572179 /* Debug */,
+				A87D0F4C193225FE00572179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A87D0F4D193225FE00572179 /* Build configuration list for PBXNativeTarget "keyChainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87D0F4E193225FE00572179 /* Debug */,
+				A87D0F4F193225FE00572179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A87D0F2F193225FD00572179 /* keyChain.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A87D0F30193225FD00572179 /* keyChain.xcdatamodel */,
+			);
+			currentVersion = A87D0F30193225FD00572179 /* keyChain.xcdatamodel */;
+			path = keyChain.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A87D0F10193225FD00572179 /* Project object */;
+}
