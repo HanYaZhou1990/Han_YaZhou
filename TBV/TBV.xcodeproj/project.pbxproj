@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8514D1E1934E03200AD11BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8514D1D1934E03200AD11BF /* Foundation.framework */; };
+		A8514D201934E03200AD11BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8514D1F1934E03200AD11BF /* CoreGraphics.framework */; };
+		A8514D221934E03200AD11BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8514D211934E03200AD11BF /* UIKit.framework */; };
+		A8514D241934E03200AD11BF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8514D231934E03200AD11BF /* CoreData.framework */; };
+		A8514D2A1934E03200AD11BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8514D281934E03200AD11BF /* InfoPlist.strings */; };
+		A8514D2C1934E03200AD11BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8514D2B1934E03200AD11BF /* main.m */; };
+		A8514D301934E03200AD11BF /* HYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8514D2F1934E03200AD11BF /* HYZAppDelegate.m */; };
+		A8514D331934E03200AD11BF /* TBV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8514D311934E03200AD11BF /* TBV.xcdatamodeld */; };
+		A8514D351934E03200AD11BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8514D341934E03200AD11BF /* Images.xcassets */; };
+		A8514D3C1934E03200AD11BF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8514D3B1934E03200AD11BF /* XCTest.framework */; };
+		A8514D3D1934E03200AD11BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8514D1D1934E03200AD11BF /* Foundation.framework */; };
+		A8514D3E1934E03200AD11BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8514D211934E03200AD11BF /* UIKit.framework */; };
+		A8514D3F1934E03200AD11BF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8514D231934E03200AD11BF /* CoreData.framework */; };
+		A8514D471934E03200AD11BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8514D451934E03200AD11BF /* InfoPlist.strings */; };
+		A8514D491934E03200AD11BF /* TBVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8514D481934E03200AD11BF /* TBVTests.m */; };
+		A8514D541934E05C00AD11BF /* HYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8514D531934E05C00AD11BF /* HYZViewController.m */; };
+		A8FF3F021936141300AB24CF /* HYZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FF3F011936141300AB24CF /* HYZTableViewCell.m */; };
+		A8FF3F051936147B00AB24CF /* HYZCellButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FF3F041936147B00AB24CF /* HYZCellButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8514D401934E03200AD11BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8514D121934E03200AD11BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8514D191934E03200AD11BF;
+			remoteInfo = TBV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8514D1A1934E03200AD11BF /* TBV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8514D1D1934E03200AD11BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8514D1F1934E03200AD11BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8514D211934E03200AD11BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A8514D231934E03200AD11BF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A8514D271934E03200AD11BF /* TBV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBV-Info.plist"; sourceTree = "<group>"; };
+		A8514D291934E03200AD11BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8514D2B1934E03200AD11BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8514D2D1934E03200AD11BF /* TBV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBV-Prefix.pch"; sourceTree = "<group>"; };
+		A8514D2E1934E03200AD11BF /* HYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYZAppDelegate.h; sourceTree = "<group>"; };
+		A8514D2F1934E03200AD11BF /* HYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYZAppDelegate.m; sourceTree = "<group>"; };
+		A8514D321934E03200AD11BF /* TBV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TBV.xcdatamodel; sourceTree = "<group>"; };
+		A8514D341934E03200AD11BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A8514D3A1934E03200AD11BF /* TBVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8514D3B1934E03200AD11BF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A8514D441934E03200AD11BF /* TBVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBVTests-Info.plist"; sourceTree = "<group>"; };
+		A8514D461934E03200AD11BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8514D481934E03200AD11BF /* TBVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBVTests.m; sourceTree = "<group>"; };
+		A8514D521934E05C00AD11BF /* HYZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYZViewController.h; sourceTree = "<group>"; };
+		A8514D531934E05C00AD11BF /* HYZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYZViewController.m; sourceTree = "<group>"; };
+		A8FF3F001936141300AB24CF /* HYZTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYZTableViewCell.h; sourceTree = "<group>"; };
+		A8FF3F011936141300AB24CF /* HYZTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYZTableViewCell.m; sourceTree = "<group>"; };
+		A8FF3F031936147B00AB24CF /* HYZCellButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYZCellButton.h; sourceTree = "<group>"; };
+		A8FF3F041936147B00AB24CF /* HYZCellButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYZCellButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8514D171934E03200AD11BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8514D201934E03200AD11BF /* CoreGraphics.framework in Frameworks */,
+				A8514D241934E03200AD11BF /* CoreData.framework in Frameworks */,
+				A8514D221934E03200AD11BF /* UIKit.framework in Frameworks */,
+				A8514D1E1934E03200AD11BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8514D371934E03200AD11BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8514D3C1934E03200AD11BF /* XCTest.framework in Frameworks */,
+				A8514D3F1934E03200AD11BF /* CoreData.framework in Frameworks */,
+				A8514D3E1934E03200AD11BF /* UIKit.framework in Frameworks */,
+				A8514D3D1934E03200AD11BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8514D111934E03200AD11BF = {
+			isa = PBXGroup;
+			children = (
+				A8514D251934E03200AD11BF /* TBV */,
+				A8514D421934E03200AD11BF /* TBVTests */,
+				A8514D1C1934E03200AD11BF /* Frameworks */,
+				A8514D1B1934E03200AD11BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8514D1B1934E03200AD11BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8514D1A1934E03200AD11BF /* TBV.app */,
+				A8514D3A1934E03200AD11BF /* TBVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8514D1C1934E03200AD11BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8514D1D1934E03200AD11BF /* Foundation.framework */,
+				A8514D1F1934E03200AD11BF /* CoreGraphics.framework */,
+				A8514D211934E03200AD11BF /* UIKit.framework */,
+				A8514D231934E03200AD11BF /* CoreData.framework */,
+				A8514D3B1934E03200AD11BF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8514D251934E03200AD11BF /* TBV */ = {
+			isa = PBXGroup;
+			children = (
+				A8514D2E1934E03200AD11BF /* HYZAppDelegate.h */,
+				A8514D2F1934E03200AD11BF /* HYZAppDelegate.m */,
+				A8514D521934E05C00AD11BF /* HYZViewController.h */,
+				A8514D531934E05C00AD11BF /* HYZViewController.m */,
+				A8FF3F001936141300AB24CF /* HYZTableViewCell.h */,
+				A8FF3F011936141300AB24CF /* HYZTableViewCell.m */,
+				A8FF3F031936147B00AB24CF /* HYZCellButton.h */,
+				A8FF3F041936147B00AB24CF /* HYZCellButton.m */,
+				A8514D341934E03200AD11BF /* Images.xcassets */,
+				A8514D311934E03200AD11BF /* TBV.xcdatamodeld */,
+				A8514D261934E03200AD11BF /* Supporting Files */,
+			);
+			path = TBV;
+			sourceTree = "<group>";
+		};
+		A8514D261934E03200AD11BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8514D271934E03200AD11BF /* TBV-Info.plist */,
+				A8514D281934E03200AD11BF /* InfoPlist.strings */,
+				A8514D2B1934E03200AD11BF /* main.m */,
+				A8514D2D1934E03200AD11BF /* TBV-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8514D421934E03200AD11BF /* TBVTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8514D481934E03200AD11BF /* TBVTests.m */,
+				A8514D431934E03200AD11BF /* Supporting Files */,
+			);
+			path = TBVTests;
+			sourceTree = "<group>";
+		};
+		A8514D431934E03200AD11BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8514D441934E03200AD11BF /* TBVTests-Info.plist */,
+				A8514D451934E03200AD11BF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8514D191934E03200AD11BF /* TBV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8514D4C1934E03200AD11BF /* Build configuration list for PBXNativeTarget "TBV" */;
+			buildPhases = (
+				A8514D161934E03200AD11BF /* Sources */,
+				A8514D171934E03200AD11BF /* Frameworks */,
+				A8514D181934E03200AD11BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBV;
+			productName = TBV;
+			productReference = A8514D1A1934E03200AD11BF /* TBV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8514D391934E03200AD11BF /* TBVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8514D4F1934E03200AD11BF /* Build configuration list for PBXNativeTarget "TBVTests" */;
+			buildPhases = (
+				A8514D361934E03200AD11BF /* Sources */,
+				A8514D371934E03200AD11BF /* Frameworks */,
+				A8514D381934E03200AD11BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8514D411934E03200AD11BF /* PBXTargetDependency */,
+			);
+			name = TBVTests;
+			productName = TBVTests;
+			productReference = A8514D3A1934E03200AD11BF /* TBVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8514D121934E03200AD11BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HYZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "韩亚周";
+				TargetAttributes = {
+					A8514D391934E03200AD11BF = {
+						TestTargetID = A8514D191934E03200AD11BF;
+					};
+				};
+			};
+			buildConfigurationList = A8514D151934E03200AD11BF /* Build configuration list for PBXProject "TBV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8514D111934E03200AD11BF;
+			productRefGroup = A8514D1B1934E03200AD11BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8514D191934E03200AD11BF /* TBV */,
+				A8514D391934E03200AD11BF /* TBVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8514D181934E03200AD11BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8514D2A1934E03200AD11BF /* InfoPlist.strings in Resources */,
+				A8514D351934E03200AD11BF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8514D381934E03200AD11BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8514D471934E03200AD11BF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8514D161934E03200AD11BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FF3F021936141300AB24CF /* HYZTableViewCell.m in Sources */,
+				A8FF3F051936147B00AB24CF /* HYZCellButton.m in Sources */,
+				A8514D541934E05C00AD11BF /* HYZViewController.m in Sources */,
+				A8514D301934E03200AD11BF /* HYZAppDelegate.m in Sources */,
+				A8514D2C1934E03200AD11BF /* main.m in Sources */,
+				A8514D331934E03200AD11BF /* TBV.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8514D361934E03200AD11BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8514D491934E03200AD11BF /* TBVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8514D411934E03200AD11BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8514D191934E03200AD11BF /* TBV */;
+			targetProxy = A8514D401934E03200AD11BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8514D281934E03200AD11BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8514D291934E03200AD11BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8514D451934E03200AD11BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8514D461934E03200AD11BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8514D4A1934E03200AD11BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8514D4B1934E03200AD11BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8514D4D1934E03200AD11BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBV/TBV-Prefix.pch";
+				INFOPLIST_FILE = "TBV/TBV-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8514D4E1934E03200AD11BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBV/TBV-Prefix.pch";
+				INFOPLIST_FILE = "TBV/TBV-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A8514D501934E03200AD11BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TBV.app/TBV";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBV/TBV-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TBVTests/TBVTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A8514D511934E03200AD11BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TBV.app/TBV";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBV/TBV-Prefix.pch";
+				INFOPLIST_FILE = "TBVTests/TBVTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8514D151934E03200AD11BF /* Build configuration list for PBXProject "TBV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8514D4A1934E03200AD11BF /* Debug */,
+				A8514D4B1934E03200AD11BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8514D4C1934E03200AD11BF /* Build configuration list for PBXNativeTarget "TBV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8514D4D1934E03200AD11BF /* Debug */,
+				A8514D4E1934E03200AD11BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8514D4F1934E03200AD11BF /* Build configuration list for PBXNativeTarget "TBVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8514D501934E03200AD11BF /* Debug */,
+				A8514D511934E03200AD11BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A8514D311934E03200AD11BF /* TBV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A8514D321934E03200AD11BF /* TBV.xcdatamodel */,
+			);
+			currentVersion = A8514D321934E03200AD11BF /* TBV.xcdatamodel */;
+			path = TBV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A8514D121934E03200AD11BF /* Project object */;
+}
