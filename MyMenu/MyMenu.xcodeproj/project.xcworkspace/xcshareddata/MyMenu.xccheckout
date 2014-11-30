@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3222210D-10C4-438C-94C2-12D80152859B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyMenu</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0A8672DF-3B0B-4FDF-8F5F-639AE1D2738D</key>
+		<string>https://github.com/HanYaZhou1990/Han_YaZhou.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyMenu/MyMenu.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0A8672DF-3B0B-4FDF-8F5F-639AE1D2738D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/HanYaZhou1990/Han_YaZhou.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0A8672DF-3B0B-4FDF-8F5F-639AE1D2738D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0A8672DF-3B0B-4FDF-8F5F-639AE1D2738D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Han_YaZhou</string>
+		</dict>
+	</array>
+</dict>
+</plist>
